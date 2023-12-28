@@ -40,3 +40,5 @@ for _ in range(case):
     N, M = list(map(int, sys.stdin.readline().rstrip().split(' ')))
 
     print(dp[N][M])
+
+1
