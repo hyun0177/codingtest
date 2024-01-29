@@ -5,7 +5,7 @@
 #case3: 1~8 일때는 ex 1->2 2->1 양방향으로 가능하기 때문에 dp[i][j] = dp[i-1][j-1] + dp[i-1][j+1]
 N = int(input())
 
-dp = [[0 for _ in range(0)] for _ in range(N+1)]
+dp = [[0 for _ in range(101)] for _ in range(N+1)]
 for i in range(1, 10):
     dp[1][i] = 1
 
